@@ -626,7 +626,6 @@ body {
 }
 
 .portfolio-project-item {
-  position: relative;
   flex-basis: calc(100% / 3 - 30);
   margin-right: 30px;
   margin-bottom: 30px;
