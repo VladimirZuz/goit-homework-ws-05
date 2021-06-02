@@ -255,26 +255,22 @@ body {
   content: '';
 
   display: block;
-  left: 0;
-  margin-top: 28px;
+  width: 100%;
+  height: 4px;
 
+  background-color: #2196f3;
+}
+
+.site-nav-link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0px;
   display: block;
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: #2196f3;
-}
-
-.line-studio.current::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 0;
-  min-width: 48px;
-  height: 4px;
-  border-radius: 2px;
   border-bottom: 4px solid var(--txt-blue);
-  margin-top: 28px;
 }
 
 .site-nav-link:hover,
