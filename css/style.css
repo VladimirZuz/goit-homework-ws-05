@@ -734,4 +734,46 @@ body {
   line-height: 1.87;
   color: #757575;
 }
-/*==============================END PORTFOLIO 2 PROECT==============*/
+/*=====================END PORTFOLIO 2 PROECT======================*/
+
+/*=========================MODAL WINDOW============================*/
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 580px;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.modal-close-btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2px;
+}
+
+/*======================END MODAL WINDOW============================*/
